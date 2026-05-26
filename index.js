@@ -11,6 +11,14 @@ let products = [...mockProducts];
 app.use(cors());
 app.use(express.json());
 
+const myLogger = (req, res, next) => {
+  const currentTime = new Date().toISOString();
+  console.log(`[${currentTime}] ${req.method} ${req.url}`);
+  next();
+};
+
+app.use(myLogger);
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
@@ -27,7 +35,7 @@ app.get("/products", (req, res) => {
       return res.status(200).json({ success: true, data: filteredProducts });
     }
 
-    // case: no query, return all products
+    // return all products
     return res.status(200).json({ success: true, data: products });
   } catch (error) {
     return res

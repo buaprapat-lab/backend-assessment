@@ -3,9 +3,11 @@
 ## Submission Links
 
 **Loom Video (must be set to public — anyone with the link):**
-[paste your Loom video URL here]
+Link:
+Part 1: https://www.loom.com/share/5fccd3aceeeb46d6ac2562585e7fda26
+Part 2: https://www.loom.com/share/68704f407959420181ebe3f6ca236147
 
----
+## ที่ต้องแบ่งเป็น 2 parts เพราะคลิปแรกตัดไปตอน 4 นาทีค่่ะ
 
 ## Questions
 

@@ -3,6 +3,8 @@
 ## Submission Links
 
 Link:
+Part 1: https://www.loom.com/share/5fccd3aceeeb46d6ac2562585e7fda26
+Part 2: https://www.loom.com/share/68704f407959420181ebe3f6ca236147
 
 **Loom Video (must be set to public — anyone with the link):**
 [paste your Loom video URL here]
@@ -66,7 +68,7 @@ _Your answer:_
 **5. What is middleware? Describe what it does in your own words and give one example from your code.**
 
 _Your answer:_
-middleware ด่านตรวจกลางทาง ที่คอยตรวจ request ที่จะไป function หลัก ในที่นี้ใช้ 3 ตัวคือ cors() เพื่อเผื่อจะไปต่อ frone-end, express.json() แกะข้อความ JSON ให้อ่่านออก, centralized error handling middleware
+middleware ด่านตรวจกลางทาง ที่คอยตรวจ request ที่จะไป function หลัก ในที่นี้ใช้ 3 ตัวคือ cors() เพื่อเผื่อจะไปต่อ frone-end, express.json() แกะข้อความ JSON ให้อ่่านออก, centralized error handling middleware และ custom Middleware บันทึกประวัติการยิง API
 
 ---
 
