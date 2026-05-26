@@ -1,0 +1,24 @@
+{
+  "name": "jsd-backend-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/buaprapat-lab/backend-assessment#readme",
+  "bugs": {
+    "url": "https://github.com/buaprapat-lab/backend-assessment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buaprapat-lab/backend-assessment.git"
+  },
+  "license": "ISC",
+  "author": "Bua",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

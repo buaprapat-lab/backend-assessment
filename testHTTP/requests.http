@@ -1,0 +1,40 @@
+# REST API for Shoppin Cart Assessment
+# Base URL: http://localhost:3000
+
+@baseUrl = http://localhost:3000
+
+### Get all products
+GET {{baseUrl}}/products
+
+### Get a product with Query String
+GET {{baseUrl}}/products?name=Beef
+
+### Get a product by ID
+GET {{baseUrl}}/products/1  
+
+### POST - create a new product
+POST {{baseUrl}}/products
+Content-Type: application/json
+
+{
+    "name": "Frozen-dry New Zealand Sheep Milk Cheese",
+    "price": 150,
+    "quantity": 20,
+    "description": "A unique cheese made from sheep's milk, known for its rich and creamy texture. Perfect for cheese lovers looking for a distinctive flavor.",
+    "category": "Food"
+}
+
+### PUT - update an existing product by ID
+PUT {{baseUrl}}/products/2
+Content-Type: application/json
+
+{
+    "name": "Premuim Organic Yogurt",
+    "price": 200,
+    "quantity": 15,
+    "description": "Enhance your dog's breakfast with our premium organic yogurt, made from the finest ingredients. Packed with probiotics for a healthy gut and a deliciously creamy taste.",
+    "category": "Food"
+}
+
+### DELETE - delete a product by ID
+DELETE {{baseUrl}}/products/3
